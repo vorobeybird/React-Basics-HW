@@ -1,0 +1,22 @@
+.navigation__container {
+    padding: 20px;
+    margin-right: 30px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px
+  }
+
+.navigation__element {
+    width: 100%;
+    border-radius: 8px;
+    transition: .3s;
+    color: #89868D;
+    margin: 0 15px 0 15px
+}
+
+.navigation__element.active {
+    background-color: #F4671F;
+    color: #fff;
+}
