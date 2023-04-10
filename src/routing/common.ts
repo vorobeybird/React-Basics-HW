@@ -3,6 +3,7 @@ import HomePageContainer from '../containers/HomePageContainer/HomePageContainer
 import PostsPageContainer from '../containers/PostsPageContainer/PostsPageContainer'
 import NotFoundPage from '../pages/NotFoundPage/NotFoundPage'
 import PostPage from '../pages/PostPage/PostPage'
+import UserRegistrationPage from '../pages/UserRegistrationPage/UserRegistrationPage'
 
 type RouteType = {
     path: string,
@@ -35,7 +36,7 @@ const POST_PAGE: RouteType = {
 const REGISTRATION_PAGE: RouteType = {
     path: URLS.registration_route,
     id: 'sdf33788s53dfsdf33',
-    component: HomePageContainer,
+    component: UserRegistrationPage,
     isAuth: false,
 }
 
